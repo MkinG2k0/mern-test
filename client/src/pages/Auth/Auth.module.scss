@@ -1,0 +1,13 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: .2em;
+  }
+}
